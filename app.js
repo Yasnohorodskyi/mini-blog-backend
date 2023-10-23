@@ -15,7 +15,7 @@ app.use(cors({ origin: 'http://localhost:5173' }));
 
 app.get('/api/posts', async (req, res) => {
   try {
-    const { pathname } = new URL(req.url, 'http://localhost');
+    const { pathname } = new URL(req.url, 'https://mini-blog-backend.vercel.app/');
 
     if (pathname === '/api/posts') {
       await postsHandler(req, res);
@@ -30,7 +30,7 @@ app.get('/api/posts', async (req, res) => {
 
 app.get('/api/pages', async (req, res) => {
   try {
-    const { pathname } = new URL(req.url, 'http://localhost');
+    const { pathname } = new URL(req.url, 'https://mini-blog-backend.vercel.app/');
 
     if (pathname === '/api/pages') {
       await pagesHandler(req, res);
