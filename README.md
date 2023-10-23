@@ -4,6 +4,8 @@ This repository contains the backend code for a mini-blog web application. The b
 
 ## Project Structure
 
+- **app.js**: The main entry point for the backend of your mini-blog web application. It configures an Express.js server, sets up CORS, and defines routes for handling requests related to posts and pages from the Contentful CMS. The server listens on a port specified by the PORT environment variable or defaults to port 3002.
+
 - **pages.js**: This file defines the routes for retrieving pages based on their slug from the Contentful CMS.
 
 - **posts.js**: This file defines the routes for retrieving posts based on their slug from the Contentful CMS.
