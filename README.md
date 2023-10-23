@@ -29,7 +29,7 @@ npm start
 
 4. The server will be running on `http://localhost:3002`.
 
-##API Endpoints
+## API Endpoints
 
 **/api/posts:** Retrieves a posts list.
 
