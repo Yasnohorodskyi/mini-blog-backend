@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/posts": {
+      "handler": "src/routes/posts.js"
+    },
+    "api/pages": {
+      "handler": "src/routes/pages.js"
+    },
+    "api/posts/[slug]": {
+      "handler": "src/routes/posts.js"
+    }
+  }
+}

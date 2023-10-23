@@ -19,8 +19,5 @@ yarn-error.log*
 .env*.local
 .env
 
-# vercel
-.vercel
-
 package-lock.json
 yarn.lock
